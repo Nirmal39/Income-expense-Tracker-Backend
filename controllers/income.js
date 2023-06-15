@@ -26,7 +26,6 @@ export const addIncome = async (req, res,next) => {
         next(error)
     }
 
-    console.log(income)
 }
 
 export const getIncomes = async (req, res,next) =>{

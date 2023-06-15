@@ -3,7 +3,6 @@ import { Category } from '../models/Category.js'
 
 export const addCategory = async (req,res) => {
     const { title,icon, type}  = req.body;
-    console.log(req.body)
 
     const category = Category({
         title,
